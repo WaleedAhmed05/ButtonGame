@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Practice">
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:soundEffectsEnabled="true"
+        app:srcCompat="@color/colorAccent"
+        tools:layout_editor_absoluteX="211dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageButton2"
+        android:layout_marginTop="57dp"
+        android:background="@layout/roundcorner"
+        android:padding="1dp"
+        android:src="@drawable/ic_launcher_foreground"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="62dp" />
+
+
+
+</android.support.constraint.ConstraintLayout>
